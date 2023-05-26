@@ -1,0 +1,29 @@
+@import '../../../styles/_variables.scss';
+
+.dashboard-recent {
+	.body .recent-item {
+		display: flex;
+		
+		p {
+			color: white;
+			flex: 1;
+
+			&.price {
+				color: $light-grey;
+			}
+			&.view svg{
+				fill: $light-grey;
+
+				&:active,
+				&:focus,
+				&:hover {
+					fill: white;
+				}
+			}
+			a {
+				color: white;
+				text-decoration: none;
+			}
+		}
+	}
+}

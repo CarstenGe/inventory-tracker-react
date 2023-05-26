@@ -1,0 +1,31 @@
+@import '../../styles/variables';
+
+.header {
+	background-color: $grey;
+	width: 100%;
+
+	ul {
+		display: flex;
+		justify-content: flex-end;
+		list-style: none;
+		padding: 15px 20px;
+
+		li {
+			margin-left: 15px;
+			
+			a {
+				color: $light-grey;
+				text-decoration: none;
+
+				&:active,
+				&:focus,
+				&:hover {
+					color: white;
+				}
+			}
+			&.active > a {
+				color: $green;
+			}
+		}
+	}
+}

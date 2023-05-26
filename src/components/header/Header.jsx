@@ -6,7 +6,9 @@ function Header(props) {
 		<div className='header'>
 			<div className="menu">
 				<ul>
-					<li><Link to="/">Dashboard</Link></li>
+					<li className='active'><Link to="/">Dashboard</Link></li>
+					<li><Link to="/">Items</Link></li>
+					<li><Link to="/">Settings</Link></li>
 				</ul>
 			</div>
 		</div>

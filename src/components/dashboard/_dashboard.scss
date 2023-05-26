@@ -1,0 +1,36 @@
+@import '../../styles/_variables.scss';
+
+.dashboard {
+	background-color: $grey;
+	display: flex;
+	flex-flow: wrap;
+	height: calc(100vh - 66px);
+	justify-content: space-evenly;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+	.dashboard-item {
+		background-color: $dark-grey;
+		width: calc(50% - $standard-spacing);
+		margin-bottom: $small-spacing;
+		padding: $standard-spacing;
+
+		.top {
+			border-bottom: 1px solid $light-grey;
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 15px;
+			padding-bottom: 15px;
+			width: 100%;
+
+			h2 {
+				color: white;
+				margin: 0;
+			}
+			a {
+				color: $light-grey;
+				text-decoration: none;
+			}
+		}
+	}
+}
