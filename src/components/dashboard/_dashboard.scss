@@ -11,9 +11,10 @@
 
 	.dashboard-item {
 		background-color: $dark-grey;
-		width: calc(50% - $standard-spacing);
+		box-shadow: 1px 1px 13px rgba(black,0.15);
 		margin-bottom: $small-spacing;
 		padding: $standard-spacing;
+		width: calc(50% - $standard-spacing);
 
 		.top {
 			border-bottom: 1px solid $light-grey;

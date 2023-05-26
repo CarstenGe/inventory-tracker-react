@@ -1,0 +1,32 @@
+@import '../../../styles/_variables.scss';
+
+.dashboard-low-stock {
+	.body .stock-item {
+		display: flex;
+		
+		p {
+			color: white;
+			flex: 1;
+
+			&.low {
+				color: $yellow;
+			}
+			&.very-low {
+				color: $red;
+			}
+			&.view svg{
+				fill: $light-grey;
+
+				&:active,
+				&:focus,
+				&:hover {
+					fill: white;
+				}
+			}
+			a {
+				color: white;
+				text-decoration: none;
+			}
+		}
+	}
+}

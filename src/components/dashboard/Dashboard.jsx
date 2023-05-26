@@ -3,6 +3,7 @@ import DashboardGraph from './dashboardGraph/DashboardGraph';
 import DashboardLowStock from './dashboardLowStock/DashboardLowStock';
 import DashboardRecent from './dashboardRecent/DashboardRecent';
 import items from '../../db-items';
+import DashboardGraphBar from './dashboardGraphBar/DashboardGraphBar';
 
 function Dashboard(props) {
 	return (
@@ -14,7 +15,10 @@ function Dashboard(props) {
 				<DashboardLowStock items={items} />
 			</div>
 			<div className="dashboard-item">
-				<DashboardGraph items={items} />
+				<DashboardGraph />
+			</div>
+			<div className="dashboard-item">
+				<DashboardGraphBar />
 			</div>
 		</div>
 	);

@@ -42,7 +42,7 @@ const items = [
 		category: 'painting tools',
 		stock: 15,
 		price: '12.49',
-		added: '2023-05-10'
+		added: '2023-05-23'
 	  },
 	  {
 		id: 6,
