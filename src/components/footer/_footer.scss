@@ -1,5 +1,28 @@
 @import '../../styles/variables';
 
 .footer {
-	background-color: $grey;
+	background-color: $dark-grey;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 20px;
+
+	.footer-col {
+		align-items: center;
+		display: flex;
+		flex: 1;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		h3 {
+			color: white;
+		}
+		h4 {
+			color: $light-grey;
+			margin-bottom: 10px;
+			width: 100%;
+		}
+		p {
+			color: $light-grey;
+		}
+	}
 }

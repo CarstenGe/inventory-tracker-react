@@ -1,0 +1,11 @@
+@import '../../styles/variables';
+
+.items {
+	background-color: $grey;
+	display: flex;
+	flex-flow: wrap;
+	height: calc(100vh - 142px);
+	overflow-y: scroll;
+	justify-content: space-evenly;
+	padding: 15px $small-spacing;
+}

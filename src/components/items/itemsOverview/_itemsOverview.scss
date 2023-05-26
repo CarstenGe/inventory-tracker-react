@@ -1,0 +1,30 @@
+@import '../../../styles/variables';
+
+.items-overview {
+	padding-left: $small-spacing;
+	flex: 4;
+
+	.item {
+		align-items: center;
+		background-color: $dark-grey;
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 25px;
+
+		.img-container {
+			width: 20%;
+
+			img {
+				width: 100%;
+			}
+		}
+		.main-info {
+			color: white;
+			width: 40%;
+		}
+		.extra-info {
+			color: $light-grey;
+			width: 40%;
+		}
+	}
+}

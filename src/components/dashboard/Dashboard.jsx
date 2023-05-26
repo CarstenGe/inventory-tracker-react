@@ -8,16 +8,16 @@ import DashboardGraphBar from './dashboardGraphBar/DashboardGraphBar';
 function Dashboard(props) {
 	return (
 		<div className='dashboard'>
-			<div className="dashboard-item">
+			<div className="dashboard-item box">
 				<DashboardRecent items={items} />
 			</div>
-			<div className="dashboard-item">
+			<div className="dashboard-item box">
 				<DashboardLowStock items={items} />
 			</div>
-			<div className="dashboard-item">
+			<div className="dashboard-item box">
 				<DashboardGraph />
 			</div>
-			<div className="dashboard-item">
+			<div className="dashboard-item box">
 				<DashboardGraphBar />
 			</div>
 		</div>
